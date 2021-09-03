@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.descuento {
+  background-color: #1cd1b0;
+  position: absolute;
+  font-weight: bold;
+  height: 30px;
+}
+
+.heroes {
+    background-color:#00669F;
+    height: 70px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.banner {
+}

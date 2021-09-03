@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.descuentos {
+    position: absolute;
+    height: 38px;
+    background-color: #1CD1B0;
+    width: 100%;
+}
+
+p.descuentos{
+    display: block;
+    font-size: 15px;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.header {
+    position: static;
+    background-color: #00669f;
+    height: 80px;
+    padding: 15px 35px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.perfil {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    margin: 40px;
+}
+
+footer{
+    position: absolute;
+    bottom: -300px;
+}
+
+.fondo {
+    position: relative;
+}
+
+.corazon {
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+}
+
+.fotoperfil {
+    position: relative;
+    bottom: 100px;
+    left: 87px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.descripcion {
+    background-color: #f3f3f3;
+    position: relative;
+    bottom: 170px;
+    height: 370px;
+    padding: 30px;
+    text-align: center;
+}
+
+.texto {
+    position: relative;
+    text-align: left;
+    margin: 25px;
+    font-size: 16px;
+}
+
+
+.titulo {
+    position: relative;
+    margin: 25px;
+    top: 15px;
+    font-size: 30px;
+}
+
+.boton {
+    background-color: #00669F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+footer {
+    display: inline;
+    width: 100%;
+    background-color: #00669f;
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+    height: 55px;
+}

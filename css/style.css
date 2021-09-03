@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: #ffc438;
+  height: 100%;
+  background-image: url("https://wallpaperaccess.com/full/782955.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  text-align: center;
+}
+h1 {
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding: 14px;
+  background-color: rgb(245, 35, 115);
+  color: white;
+  text-align: center;
+  border-style: ;
+}
+
+.front {
+  display: inline-block;
+  margin: 50px;
+  color: #ffc438;
+  font-size: 40px;
+  background-color: black;
+  border-style: ridge;
+  width: 600px;
+  height: 100px;
+  padding: 29px;
+  position: relative;
+  top: 90px;
+}
+
+.certifiedtech {
+  display: block;
+  margin: 50px;
+  color: #ffc438;
+  background-color: black;
+  border-style: ridge;
+  height: 40px;
+  padding: px;
+}
+
+.list {
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: black;
+  width: 600px;
+  border-style: ridge;
+  position: relative;
+  top: 55px;
+}
+
+#selector {
+  text-align: center;
+  background-color: rgb(255, 196, 56);
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #ffc438;
+}
+
+
+#selector a {
+  color: black;
+}
