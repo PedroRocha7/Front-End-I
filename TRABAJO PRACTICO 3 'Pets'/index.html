@@ -4,43 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pet Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <div>
-        <p>Grandes ofertas en comederos</p>
+      <div class="headchico">
+        <span>Grandes ofertas en comederos</span>
         <nav>
-          <ul>
-            <li>Español</li>
-            <li>ARG$</li>
-          </ul>
+          <select class="selectheadchico">
+            <optgroup>
+              <option>Español</option>
+              <option>English</option>
+              <option>Português</option>
+            </optgroup>
+          </select>
+          <select class="selectheadchico">
+            <optgroup>
+              <option>ARG$</option>
+              <option>US$</option>
+              <option>R$</option>
+            </optgroup>
+          </select>
         </nav>
       </div>
-      <div>
-        <img src="./Imagenes/Logo.png" alt="Logo de Front Cat & Dog" />
-        <nav>
-          <ul>
-            <li><img src="./Imagenes/pawprint 1.png" /> Categorias</li>
-            <li><img src="./Imagenes/pawprint 1.png" />Pets</li>
-            <li><img src="./Imagenes/pawprint 1.png" />Nosotros</li>
-            <li><img src="./Imagenes/pawprint 1.png" />Contactanos</li>
-          </ul>
+      <div class="headgrande">
+        <img
+          class="logoCatsDogs"
+          src="./img/Logo.png"
+          alt="Logo de Front Cat & Dog"
+          id="imagenLogoHead"
+        />
+        <nav class="headgrandenav">
+          <select class="headgrandeselect">
+            <option>Categorias</option>
+          </select>
+          <select class="headgrandeselect">
+            <option>Pets</option>
+          </select>
+          <span>Nosotros</span>
+          <span>Contactanos</span>
         </nav>
       </div>
     </header>
 
     <main>
       <section>
-        <img
-          src="./Imagenes/bowl-and-pet-daities-on-green-background 1.png"
-          alt="Banner">
-          
-          <p>¡Es un placer tenerte aquí!</p>
+        <div>
+          <img
+            src="./img/bowl-and-pet-daities-on-green-background 1.png"
+            alt="Banner"
+            class="banner"
+          />
+
+          <span class="texto1">¡Es un placer tenerte aquí!</span>
           <p>¡Comederos en descuento!</p>
           <p>COMEDEROS</p>
-        <img src="./Imagenes/pawprint 2.png" alt="Paw Logo" />
+          <img src="./img/pawprint 2.png" alt="Paw Logo" />
+        </div>
       </section>
 
       <section>
@@ -56,16 +84,96 @@
         </div>
 
         <div>
-          <img src="./Imagenes/churrasquito.png" alt="Imagen Churrasquito" />
+          <img src="./img/churrasquito.png" alt="Imagen Churrasquito" />
           <p>Juguete Churrasquito $150</p>
-          <img src="./Imagenes/comedero.png" alt="Imagen Comedero" />
+          <img src="./img/comedero.png" alt="Imagen Comedero" />
           <p>Comedero para perro $250</p>
-          <img src="./Imagenes/Huesito.png" alt="Imagen Huesito" />
+          <img src="./img/Huesito.png" alt="Imagen Huesito" />
           <p>Juguete Huesito $650</p>
         </div>
       </section>
-      <h2 allign="center">Contactanos</h2>
+      <section>
+        <h2>Contáctanos</h2>
+        <form>
+          <div>
+            <label for="nombreYApellido"></label>
+            <input
+              type="text"
+              name="nombreYApellido"
+              id="nombreYApellido"
+              required
+              placeholder="Nombre y Apellido"
+            />
+          </div>
+          <div>
+            <label for="correo"></label>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              required
+              placeholder="Ingresá tu correo electrónico"
+            />
+          </div>
+          <div>
+            <label for="telefono"></label>
+            <input
+              type="tel"
+              name="telefono"
+              id="telefono"
+              placeholder="Teléfono"
+            />
+          </div>
+          <div>
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
       </section>
     </main>
+    <footer>
+      <section>
+        <div>
+          <img src="./img/enviar-correo 1.png" alt="Logo Enviar Correo" />
+          <p>Suscríbete para más novedades</p>
+        </div>
+        <div>
+          <form>
+            <label for="newsletter"></label>
+            <input
+              type="email"
+              name="newsletter"
+              id="newsletter"
+              required
+              placeholder="Ingresá tu correo electronico"
+            />
+          </form>
+        </div>
+      </section>
+      <section>
+        <div>
+          <article>
+            <p>Localidad</p>
+            <p>Calle - provincia</p>
+          </article>
+          <article>
+            <p>Teléfono</p>
+            <p>Número de teléfono</p>
+          </article>
+          <article>
+            <p>Correo Electrónico</p>
+            <p>Dirección de correo</p>
+          </article>
+        </div>
+        <div>
+          <img src="./img/Logo.png" alt="Logo de Front Cat & Dog" />
+        </div>
+      </section>
+      <section>
+        <div class="smallHeadYFoot">
+          <p>Todos los derechos reservados Front End</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

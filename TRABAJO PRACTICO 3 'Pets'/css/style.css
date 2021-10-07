@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primario: #f0a83e;
+  --color-secundario: #3c2313;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.headchico {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+.selectheadchico {
+  background: #222222;
+  color: white;
+  border: solid transparent 0px;
+  margin: 0px 10px;
+}
+
+.headgrande {
+  background: var(--color-primario);
+  width: 100%;
+  position: relative;
+  padding: 27px;
+}
+
+.headgrandenav {
+  display: inline-block;
+  position: absolute;
+  right: 70px;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.headgrandeselect {
+  background: transparent;
+  border: transparent;
+  color: white;
+  font-size: 1.4rem;
+  margin: 0px 20px;
+  transition: all 450ms;
+}
+
+.headgrandeselect:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+nav > span {
+  margin: 0px 20px;
+  font-size: 1.4rem;
+  transition: all 450ms;
+}
+
+nav > span:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 450ms;
+}
+
+.logoCatsDogs {
+    transition: all 450ms;
+}
+
+.logoCatsDogs:hover {
+  transform: scale(1.1) skew(-5deg)
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.texto1 {
+    align-items: center;
+}
